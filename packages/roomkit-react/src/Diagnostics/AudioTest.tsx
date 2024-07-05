@@ -47,7 +47,7 @@ const MicTest = () => {
       />
       <Flex css={{ gap: '$6', alignItems: 'center' }}>
         <Button
-          onClick={() =>
+          /* onClick={() =>
             hmsDiagnostics
               .startMicCheck(selectedMic, () => {
                 setIsRecording(false);
@@ -55,7 +55,7 @@ const MicTest = () => {
               .then(() => {
                 setIsRecording(true);
               })
-          }
+          }*/
           disabled={isRecording}
         >
           {isRecording ? 'Recording...' : 'Record'}
