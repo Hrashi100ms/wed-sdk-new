@@ -127,7 +127,7 @@ export const InsetTile = ({ peerId }: { peerId?: string }) => {
             canMinimise
             isDragabble
             {...videoTileProps}
-            hideParticipantNameOnTile
+           // hideParticipantNameOnTile
           />
         )}
       </Box>
